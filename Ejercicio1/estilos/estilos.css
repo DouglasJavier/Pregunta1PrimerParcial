@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Contenedor header*/
+.header{
+	width: 100%;
+	background:#1367B5;
+	color:white; 
+	height: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.header img{
+	width: 100px;
+	vertical-align:top;
+}
+.header header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 0;
+}
+/*Contenedor navegacion */
+.navegacion{
+	height: 30px;
+	width: 100%;
+	background:#00C5FF;
+}
+.navegacion nav{
+	display: flex;
+	justify-content: space-around;
+}
+.navegacion nav a{
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px;
+/*	flex: 1;*/
+}
+.navegacion nav a:hover{
+	background-color: darkblue;
+}
+/*Contenedor cuerpo Main y aside */
+.cuerpo{
+	background:#000;
+	width: 100%;
+	margin: 0 auto;
+	display:flex;
+}
+.main{
+	background-color: beige;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+}
+.main main h3{
+	text-align: center;
+}
+.aside{
+	width: 20%;
+	background: #0A4455;
+	color: beige;
+}
+.aside aside h3{
+	text-align: center;
+}
+.aside aside ul{
+	list-style: none;
+}
+.aside aside ul li {
+    padding: 10px 0 10px 10px;
+}
+.aside aside ul li a{
+    text-decoration: none;
+	color: beige;
+	background-color: cadetblue;
+}
+
+/*Contenedor footer*/
+.footer{
+	background: #13376C;
+	height: 50px;
+	color: darkgrey;
+}
+
+
